@@ -1,0 +1,41 @@
+ Hongback son/133181164 /SAA
+
+1. Binary file operations 
+-The advantage of binary data is that it avoids the overhead and loss of precision used to convert numeric values to strings in I / O.
+However, binary data is not a text file and only uses data that the program can read.
+- write charcter to file in binary (std::ios::out | std::ios::binary)
+- read charcter to ifle in binary (std::ios::in | std::ios::binary)
+- in my code -std::ifstream ifs(file, std::ifstream::binary);
+
+2.Binding a function to its arguments 
+we need to use std::bind
+
+3. Multi-threading 
+-multi threading means In a process, multiple threads are processed simultaneously and You can implement multithreading through the thread class.
+-in my code , 
+thread* t = new thread[THREAD_SIZE];
+		for (int i = 0; i < THREAD_SIZE; i++)
+			t[i] = thread(converter, text, key, nbytes, Cryptor());
+
+		for (int i = 0; i < THREAD_SIZE; i++)
+			t[i].join();
+
+-The join () function tells the main function to wait until the thread terminates.
+
+
+Refelction
+
+1. A multi-threaded solution improves the elapsed time to complete executionby distributing independent tasks across separate hardware threads
+2. tasks . communications
+3.A task refers to a group of instructions that represents an algorithm
+4.The latency of a communication between a processor and a resource is at least oneorder of magnitude greater than that between the processor and main memory.  
+5. The latency is called that the time to coplete a communication.
+6.A
+7. Role of problem size 
+- The amount of time and space that a program requiresto execute increases with problem size
+8.wha is the process?
+-A process is an instance of a program executing on the host platform.
+9.what is the thread?
+- A thread is a sequence of a program instruction that the schedule can execute indefently
+10.what is the vectorlization?
+-Vectorization is the register-based technique that implements a singleinstruction multiple data scenario.  Vectorization takes advantage of any vector registers available within a CPU 

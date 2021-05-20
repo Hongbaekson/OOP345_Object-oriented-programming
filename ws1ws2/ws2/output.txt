@@ -1,0 +1,5 @@
+Script started on Mon 28 Jan 2019 06:01:33 PM EST
+w2: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by w2)
+w2: /lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by w2)
+
+Script done on Mon 28 Jan 2019 06:01:33 PM EST

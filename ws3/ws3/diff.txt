@@ -1,0 +1,14 @@
+In line number 19 of your output:
+The output should be:
+References 26 65
+           ^
+But your output is: 
+References  26 65
+           ^
+
+Unmatched character details:
+The character in column 12 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [Space] ASCII code(32)
+

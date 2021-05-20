@@ -1,0 +1,36 @@
+(133181164 hongback Son)
+
+1. the reason for the difference between the copy and move operations
+	I don't need deep copy for move operations because original data doesn't need to be existed.
+2. the dynamic allocation of addresses to objects instead of objects themselves
+	Dynamic allocation allow the size is assigned on run time.
+3. the changes you made in upgrading your w2 and Text modules
+	By move assignment, I got faster result for move ones.
+
+
+
+/////quiz reflction///////
+
+5 Rewrite the following code as a template to accept any data type
+
+
+    template <typename T>
+  void swap(T &a, T &b){
+
+      T c;
+
+      c = a;
+
+      a = b;
+
+      b = c;
+
+  }
+
+6. Rewrite the following code to provide a default data type of "int" and to allow the template to control the allocation size of the private array.
+
+    Template  <typename T>
+    class Array{
+    T a[10];
+
+   };

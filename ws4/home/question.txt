@@ -1,0 +1,5 @@
+1. I am confused that when I assigned dynamic memory in Notifications class since the Message** is const, it caused an error.
+    If I skip the const, it is ok, but I believe it is not the solution you want.
+
+2. About the hint part(Hint: in your design, you may choose to compress the address set by shifting each subsequent address to fill the gap created by the address removal allowing newly added addresses to always be added to the end)
+    Can you please explain more?

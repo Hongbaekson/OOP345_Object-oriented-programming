@@ -1,0 +1,14 @@
+In line number 8 of your output:
+The output should be:
+     10012     34.56
+                    ^
+But your output is: 
+     10012     34.56     10023     45.67 PST     10234     12.32 PST     10056     67.54     10029     54.12 PST     10034     96.30     Total    319.48
+                    ^
+
+Unmatched character details:
+The character in column 21 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [Space] ASCII code(32)
+

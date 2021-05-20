@@ -1,0 +1,23 @@
+Hongback son 133181164
+
+The reason for specializing the sum() member function.
+	- The reason is that std::string type have a different way of sum unlike other number types.
+	  For example in my code, the number has the way of sum like "LVPair<L, V>::m_value + sum",
+but string has the way of "std::string result = value + " " + LVPair<std::string, std::string>::m_value;"
+
+The reason for specializing the initial value for a summation.
+	- The number and string have different type's initial value.
+	  In my code, I initialize 0 for int and " " for std::string.
+	  
+The reason for defining the class variable outside the class definition.
+	- That is because class variables can be shared by all instance so it should not belong to an instance.
+	  In my code, I set the static value for width data outside of main function where the instances is used.
+
+-quiz reflection-
+Question 2: Aggregation is a ________________ that does not manage the _____________ of the objects it uses. 
+ Correct Answer:  
+An aggregation is a composition that does not manage the creation or destruction of the objects that it uses. 
+
+ 
+Question 3: Association is a __________________ relationship and does not involve _________________ of one type by another. 
+Correct Answer: An association is a service relationship and does not involve ownership of one type by another. 

@@ -1,0 +1,19 @@
+
+133181164 Hongback son /SAA
+
+
+
+1. The reason for using the vector container rather than any other available in the STL
+
+Vector - Class template providing dynamic array container  and it is Similar to the array in the data structure. The index value can be accessed randomly (access at once).
+
+in addtion, A vector is an array that can be flexibly stretched by automatically reallocating memory to match the number of elements
+
+2.Why there is no need to deallocate the dynamically allocated memory in your own code
+
+Vector automatically deallocates unused memory
+
+
+3.How the range-based for simplifies coding in this case
+C ++ 11 introduces a new type of loop called a ranged-based for statement that provides a simpler and safer way to iterate over all elements, including arrays.
+The loop loops through each array element and assigns the value of the current array element to the variable declared in element_declaration. For best results, element_declaration must be of the same type as the array element. Otherwise a type conversion occurs.

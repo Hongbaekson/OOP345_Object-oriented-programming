@@ -1,0 +1,45 @@
+133181164 Hongback son
+
+Reflection-
+1. The difference between the implementations of a composition and an aggregation
+-Aggregation has an association with the whole, but does not have the same life cycle. (Relationship between 'Person' and 'Address') (Relationship between 'history subject' and 'student')
+
+-Composition has a strong relation between whole and part, and whole and part have the same life cycle ('Car' and 'Engine' relation) ('House' and 'Room' relation)
+Ex)
+class A_composition
+{
+private:
+   B pb;
+public:
+   A_composition();
+   ~A_composition();
+};
+
+class A_aggregation
+{
+private:
+    B* pb;
+public:
+    A_aggregation();
+    ~A_aggregation();
+};
+2. The difference between the implementations of move and copy functions in a composition and an aggregation
+
+
+
+
+
+
+Quiz reflection
+Complete the declaration for the missing operator that will make this class act as a function object:  
+class Compare {      
+     Order order;    
+public:      
+     Compare(Order o) : order(o) {}      
+     ___________________________________      
+ };
+Selected Answer: 	bool operator ()(T& a, T& b) const{
+return order == Order::ascending ? a> b: a<b;
+}
+
+

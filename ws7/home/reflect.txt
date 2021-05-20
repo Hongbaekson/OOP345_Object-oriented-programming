@@ -1,0 +1,27 @@
+Hongback Son / 1331281164/ SAA / Mar 16
+
+1. vector provides dynamic size automatically and accessing time of each element is fastest.
+For example, when acuumulate function is used, the access time of each element is important.
+
+
+2. vector, accumulate, transform, sort, inner_product
+
+
+3. in transform in sigma fuction, the lambda expression is used.
+For example, [&](T y) { return pow(y - mean(), 2);}
+
+
+4. I don't have to care about the how but what.
+For example, after calling sort function, the data should be sorted.
+
+
+quiz reflection
+1. Wrapper Class Templet , Functions , Operator Classes
+2.  ios Hierarchy , wios Hierarchy
+3. Text mode, Binary Mode
+4. 
+**** 1
+$^ne 2
+Line 3
+The last line
+	

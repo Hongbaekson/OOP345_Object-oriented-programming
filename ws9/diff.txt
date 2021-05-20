@@ -1,0 +1,14 @@
+In line number 11 of your output:
+The output should be:
+922 bytes copied from binary file 345_w9_encrypted_prof.dat into memory.
+  ^
+But your output is: 
+923 bytes copied from binary file 345_w9_encrypted_prof.dat into memory.
+  ^
+
+Unmatched character details:
+The character in column 3 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [3] ASCII code(51)
+
